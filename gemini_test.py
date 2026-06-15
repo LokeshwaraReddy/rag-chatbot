@@ -8,7 +8,7 @@ from google.genai import types
 
 def generate():
     client = genai.Client(
-        api_key="YOUR_API_KEY_HERE",
+        api_key="AQ.Ab8RN6IV8HxOuIZNBPrqHH3FTvK-Pgq-8CsPForR6ypwq43azwE",
     )
 
     model = "gemini-2.5-flash"
