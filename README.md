@@ -1,3 +1,4 @@
+HEAD
 # Intelligent Document Assistant using RAG
 
 An AI-powered chatbot that can answer questions from uploaded documents using Retrieval-Augmented Generation (RAG). This project is suitable for a university capstone, NVIDIA AI GPU internship demonstration, or a GitHub portfolio project.
@@ -38,3 +39,5 @@ graph TD
     I -- Generates Response --> H;
     H -- Sends Response to --> B;
     B -- Displays Response --> A;
+# rag-chatbot
+ 4050712920d225b1e4b1c7fab93232f6c326b34b
