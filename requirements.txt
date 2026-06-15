@@ -1,0 +1,23 @@
+# rag-chatbot/requirements.txt
+
+# Core
+python-dotenv==1.0.1
+langchain>=0.1.20
+streamlit>=1.33.0
+
+# LLM and Embeddings
+langchain-community>=0.0.38
+sentence-transformers>=2.7.0
+huggingface-hub>=0.22.2
+torch>=2.2.2
+# For GPU support, otherwise use torch without +cu121
+
+# Vector Database
+faiss-cpu>=1.8.0 # or faiss-gpu for GPU support
+
+# Document Processing
+pypdf==4.2.0
+docx2txt==0.8
+
+# For evaluation script
+pandas==2.2.1
